@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Simple Music Player</string>
+    <string name="app_launcher_name">Música</string>
+    <string name="playlist_empty">Su lista de reproducción está vacía</string>
+    <string name="rename_song">Renombrar canción</string>
+    <string name="rename_song_error">Ha ocurrido un error durante el renombrado</string>
+    <string name="rename_song_empty">Por favor, rellene todos los campos</string>
+    <string name="repeat_off">Repeat off</string>
+    <string name="repeat_song">Repetir la canción actual</string>
+    <string name="repeat_playlist">Repeat playlist</string>
+    <string name="stop_playback_after_current_song">Stop playback after current song</string>
+    <string name="enable_shuffle">Activar aleatorio</string>
+    <string name="disable_shuffle">Desactivar aleatorio</string>
+    <string name="shuffle_enabled">Reproducción aleatoria activada</string>
+    <string name="shuffle_disabled">Reproducción aleatoria desactivada</string>
+    <string name="sleep_timer">Temporizador para dormir</string>
+    <string name="volume">Volume</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="loading_files">Loading files…</string>
+
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">Añadir archivo a lista de reproducción</string>
+    <string name="add_folder_to_playlist">Añadir carpeta a lista de reproducción</string>
+    <string name="manage_playlists">Administrar listas de reproducción</string>
+    <string name="playlists">Listas de reproducción</string>
+    <string name="create_new_playlist">Crear lista de reproducción</string>
+    <string name="rename_playlist">Renombrar lista de reproducción</string>
+    <string name="playlist_name_exists">Ya existe una lista de reproducción con ese nombre</string>
+    <string name="remove_playlist">Eliminar lista de reproducción</string>
+    <string name="remove_playlist_description">Esto solo eliminará las listas de reproducción seleccionadas, no los archivos reales.</string>
+    <string name="remove_playlist_description_placeholder">Esto solo eliminará la lista de reproducción \"%s\", no los archivos reales.</string>
+    <string name="remove_from_playlist">Eliminar de lista de reproducción</string>
+    <string name="remove_from_playlist_description">Esto solo eliminará los elementos de la lista de reproducción \"%s\", los archivos reales no serán eliminados.</string>
+    <string name="delete_the_files_too">También eliminar los archivos</string>
+    <string name="open_playlist">Abrir lista de reproducción</string>
+    <string name="all_songs_cannot_be_deleted">La lista de reproducción \"Todas las canciones\" no puede ser eliminada.</string>
+    <string name="empty_playlist">La lista de reproducción actual está vacía</string>
+    <string name="fetching_songs">Buscando canciones…</string>
+    <string name="all_songs">Todas las canciones</string>
+    <string name="create_playlist_from_folder">Crear nueva lista de reproducción a partir de la carpeta</string>
+    <string name="folder_contains_no_audio">Las carpetas seleccionadas no contienen archivos de audio</string>
+    <string name="delete_current_song">Eliminar canción actual</string>
+    <string name="remove_current_song">Eliminar canción actual de la lista de reproducción</string>
+    <string name="show_filename">Mostrar los nombres de los archivos como títulos de las canciones</string>
+    <string name="title_is_not_available">Si el título no está disponible</string>
+    <string name="show_album_cover">Mostrar portada de álbum en la pantalla principal</string>
+    <string name="all_tracks">Todas las canciones</string>
+    <string name="add_to_playlist">Añadir a lista de reproducción</string>
+    <string name="create_playlist_label">Puedes crear una nueva lista de reproducción seleccionando los artistas deseados, álbumes o canciones y seleccionando Menú -> Añadir a lista de reproducción.</string>
+
+    <!-- Sorting -->
+    <string name="track_count">Conteo de canciones</string>
+    <string name="album_count">Conteo de álbumes</string>
+    <string name="artist_name">Nombre de artista</string>
+    <string name="year">Año</string>
+
+    <!-- Artists -->
+    <string name="artists">Artistas</string>
+    <string name="folders">Folders</string>
+    <string name="albums">Álbumes</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Álbum</item>
+        <item quantity="other">%d Álbumes</item>
+    </plurals>
+
+    <string name="tracks">Canciones</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d Canción</item>
+        <item quantity="other">%d Canciones</item>
+    </plurals>
+
+    <!-- Queue -->
+    <string name="next_track">Siguiente:</string>
+    <string name="track_queue">Cola de canciones</string>
+    <string name="add_to_queue">Añadir a la cola</string>
+    <string name="remove_from_queue">Quitar de la cola</string>
+    <string name="create_playlist_from_queue">Crear lista de reproducción de la cola</string>
+
+    <!-- Settings -->
+    <string name="equalizer">Ecualizador</string>
+    <string name="swap_prev_next">Intercambiar botones de anterior/siguiente de los audífonos</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">¿Cómo puedo adelantar canciones?</string>
+    <string name="faq_1_text">Puedes tocar los textos de la duración actual o máxima cerca de la barra de búsqueda, eso hará que la canción avance o retroceda.</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Reproductor de Música Simple - Un buen reproductor</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Reproductor de música con widget personalizable, buena interfaz y sin anuncios.</string>
+    <string name="app_long_description">
+        Un reproductor de música simple fácilmente controlable desde la barra de estado, widget en la pantalla principal o con los botónes de tus audífonos. Provee todas las funciones esperadas como ordenar de diferentes formas como modificar el Ecualizador.  Escucha tus mp3 favoritos, otras canciones o podcasts con este reproductor hermoso y gratuito.
+
+        Ofrece extras exclusivos como Buscar y mostrar Carátula de álbum, un temporizador para dormir y otros ajustes varios. Este elegante reproductor te permite crear y administrar prácticas listas de reproducción como desees.
+
+        Las listas de reproducción son completamente soportadas. También puedes añadir archivos individuales, o carpetas completas. Si no te gusta una cación, puedes solo removerla de la lista de reproduccion, o también eliminar el archivo real.
+
+        Incluye un prácico temporizador para dormir, así que puedes programar el tiempo para que la aplicaicón se detenga sola con confianza.
+
+        Soporta modo aleatorio y repetir una canción en particular, como saltar una canción y adelantar la misma.
+
+        Disponible en diferentes lenguajes, ofrece diferentes ecualizadores.
+
+        Mira fácilmente las propiedades de un archivo como el tamaño, duración, última modificación, etc.
+
+        Modifica la información EXIF del archivo como el título de la canción y artista.
+
+        Comparte rápidamente las canciones con tus amigos en redes sociales, correo electrónico o cualquier lugar que quieras.
+
+        Este reproductor con estilo contiene un widget con color de texto, transparencia y color del fondo personalizables para fácil acceso y control.
+
+        También maneja apropiadamente actividades de aplicaciones externas para reproducir archivos de audio individuales, así que también ayuda a establecer tonos de llamada.
+
+        Incluye diseño material y tema obscuro por defecto, provee una gran experiencia de usuario para uso sencillo. La falta del acceso a internet te da más privacidad, seguridad y estabilidad que otras aplicaciones.
+
+        No contiene anuncios o permisos innecesarios. Es completamente de código abierto, provee colores personalizables.
+
+        <b>Mira la suite completa de herramientas Simples aquí:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

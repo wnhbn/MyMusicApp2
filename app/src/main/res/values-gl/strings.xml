@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Simple Music Player</string>
+    <string name="app_launcher_name">Reprodutor</string>
+    <string name="playlist_empty">A lista de reprodución está baleira</string>
+    <string name="rename_song">Renomear canción</string>
+    <string name="rename_song_error">Algo fallou ao renomear</string>
+    <string name="rename_song_empty">Por favor complete todos os campos</string>
+    <string name="repeat_off">Repeat off</string>
+    <string name="repeat_song">Repetir a canción actual</string>
+    <string name="repeat_playlist">Repeat playlist</string>
+    <string name="stop_playback_after_current_song">Stop playback after current song</string>
+    <string name="enable_shuffle">Activa Modo aleatorio</string>
+    <string name="disable_shuffle">Desactiva Modo aleatorio</string>
+    <string name="shuffle_enabled">Modo aleatorio activado</string>
+    <string name="shuffle_disabled">Modo aleatorio desactivado</string>
+    <string name="sleep_timer">Temporizador</string>
+    <string name="volume">Volume</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="loading_files">Loading files…</string>
+
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">Engadir ficheiro á lista de reprodución</string>
+    <string name="add_folder_to_playlist">Engadir cartafol á lista de reprodución</string>
+    <string name="manage_playlists">Xestionar listas de reprodución</string>
+    <string name="playlists">Listas de reprodución</string>
+    <string name="create_new_playlist">Crear listas de reprodución</string>
+    <string name="rename_playlist">Renomear listas de reprodución</string>
+    <string name="playlist_name_exists">Xa existe unha lista de reprodución con ese nome</string>
+    <string name="remove_playlist">Eliminar lista de reprodución</string>
+    <string name="remove_playlist_description">Isto só elimina as listas de reprodución seleccionadas, non os ficheiros.</string>
+    <string name="remove_playlist_description_placeholder">Isto só eliminará listas de reprodución\"%s\", non os ficheiros.</string>
+    <string name="remove_from_playlist">Eliminar da lista de reprodución</string>
+    <string name="remove_from_playlist_description">Isto só elimina elementos da lista \"%s\", non se eliminan os ficheiros.</string>
+    <string name="delete_the_files_too">Eliminar tamén os ficheiros</string>
+    <string name="open_playlist">Abrir lista de reprodución</string>
+    <string name="all_songs_cannot_be_deleted">Non se poden borrar \'todas as cancións\' da lista</string>
+    <string name="empty_playlist">A lista actual está baleira</string>
+    <string name="fetching_songs">Buscando cancións_</string>
+    <string name="all_songs">Todas as cancións</string>
+    <string name="create_playlist_from_folder">Crear nova lista de reprodución desde cartafol</string>
+    <string name="folder_contains_no_audio">O cartafol seleccionado non contén ficheiros de audio</string>
+    <string name="delete_current_song">Eliminar esta canción</string>
+    <string name="remove_current_song">Eliminar esta canción da lista de reprodución</string>
+    <string name="show_filename">Amosar o nome de ficheiro como título da canción</string>
+    <string name="title_is_not_available">O título non está dispoñible</string>
+    <string name="show_album_cover">Amosar a portada do álbum na pantalla principal</string>
+    <string name="all_tracks">All tracks</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="create_playlist_label">You can create a new playlist by selecting the wanted artists, albums or tracks and using Menu -> Add to playlist.</string>
+
+    <!-- Sorting -->
+    <string name="track_count">Track Count</string>
+    <string name="album_count">Album Count</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="year">Year</string>
+
+    <!-- Artists -->
+    <string name="artists">Artists</string>
+    <string name="folders">Folders</string>
+    <string name="albums">Albums</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Album</item>
+        <item quantity="other">%d Albums</item>
+    </plurals>
+
+    <string name="tracks">Tracks</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d Track</item>
+        <item quantity="other">%d Tracks</item>
+    </plurals>
+
+    <!-- Queue -->
+    <string name="next_track">Next:</string>
+    <string name="track_queue">Track queue</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="remove_from_queue">Remove from queue</string>
+    <string name="create_playlist_from_queue">Create playlist from queue</string>
+
+    <!-- Settings -->
+    <string name="equalizer">Ecualizador</string>
+    <string name="swap_prev_next">Intercambiar os botóns anterior/posterior dos auriculares</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">Como podo facer un avance rápido nas cancións?</string>
+    <string name="faq_1_text">Preme na duración actual ou máxima dos ficheiros preto da barra de busca, que moverá a canción tanto cara adiante como cara atrás.</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Music Player - A cool player for your songs</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Reprodutor simple cun widget personalizable.</string>
+    <string name="app_long_description">
+        Un reprodutor de música de balde, simple e facilmente controlable desde a barra de estado, desde o widget da pantalla principal ou desde os botóns do hardware nos auriculares. Fornece todas as funcións esperadas como pode ser ordenar de diferentes maneiras, cambiar o ecualizador, escoitar os teus mp3 favoritos ou outras cancións ou podcasts.
+
+        Inclúe extras exclusivas como Buscar e ensinar a portada dun álbum, un temporizador e outras configuracións. Permíteche crear e xestionar listas de reprodución como ti queiras.
+
+        Hai posibilidade de crear listas de reprodución. Engada tanto ficheiros individuais como un cartafol enteiro. Se non che gusta un ficheiro, pódelo eliminar da lista de reprodución ou por completo.
+
+        Tamén vén cun temporizador práctico para que de xeito fiable poidas atrasar o tempo do aplicativo pechándoo.
+        
+        Inclúe o modo aleatorio e repetir, saltar ou avanzar rápido nunha canción.
+
+        Dispoñible en moitos idiomas e ofrece diferentes ecualizadores.
+
+        Comproba de maneira fácil as propiedades do ficheiro como o tamaño, duración, última modificación, etc.
+
+        Modificar os datos do ficheiro EXIF como o título ou artista.
+
+        Compartir ficheiros de maneira rápida cos teus amigos nas redes sociais, no correo electrónico ou en calquera sitio que ti queiras.
+
+        Este reprodutor de música contén un widget con cor de texto, letras e fondo personalizables para un acceso e control máis fácil.
+        
+        A parte de reproducir de xeito individual ficheiros de audio, tamén pode establecelo como ton de chamada.
+
+        E, por último, vén cun deseño material e tema escuro por defecto, fornece unha experiencia de usuario xenial para un uso fácil. O non acceso a Internet dáche máis privacidade, seguridade e estabilidade que a outros aplicativos.
+
+        Non ten publicidade nin permisos innecesarios. É un aplicativo 100% de código aberto, con cores personalizables.
+
+        <b>Visita a nosa páxina aquí:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

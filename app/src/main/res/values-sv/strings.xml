@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simpel musikspelare</string>
+    <string name="app_launcher_name">Musikspelare</string>
+    <string name="playlist_empty">Din spellista är tom</string>
+    <string name="rename_song">Byt namn på låt</string>
+    <string name="rename_song_error">Ett fel uppstod under namnbytet</string>
+    <string name="rename_song_empty">Du måste fylla i alla fält</string>
+    <string name="repeat_off">Repetera av</string>
+    <string name="repeat_song">Repetera nuvarande låt</string>
+    <string name="repeat_playlist">Repetera alla</string>
+    <string name="stop_playback_after_current_song">Stopa uppspelning efter nuvarande låt</string>
+    <string name="enable_shuffle">Aktivera blanda</string>
+    <string name="disable_shuffle">Inaktivera blanda</string>
+    <string name="shuffle_enabled">Blanda aktiverad</string>
+    <string name="shuffle_disabled">Blanda inaktiverad</string>
+    <string name="sleep_timer">Vilotidtagare</string>
+    <string name="volume">Volym</string>
+    <string name="playback_speed">Uppspelningshastighet</string>
+    <string name="loading_files">Laddar filer…</string>
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">Addera fil i spellista</string>
+    <string name="add_folder_to_playlist">Addera mapp till spellista</string>
+    <string name="manage_playlists">Hantera spellistor</string>
+    <string name="playlists">Spellistor</string>
+    <string name="create_new_playlist">Skapa spellista</string>
+    <string name="rename_playlist">Byt namn på spellista</string>
+    <string name="playlist_name_exists">Det finns redan en spellista med samma namn</string>
+    <string name="remove_playlist">Ta bort spellista</string>
+    <string name="remove_playlist_description">Detta tar bara bort de valda spellistorna, inte själva filerna.</string>
+    <string name="remove_playlist_description_placeholder">Detta tar bara bort spellistan \"%s\", inte själva filerna.</string>
+    <string name="remove_from_playlist">Ta bort från spellista</string>
+    <string name="remove_from_playlist_description">Detta tar bara bort objekten från spellistan \"%s\", själva filerna tas inte bort.</string>
+    <string name="delete_the_files_too">Ta även bort filerna</string>
+    <string name="open_playlist">Öppna spellista</string>
+    <string name="all_songs_cannot_be_deleted">Spellistan \'Alla låtar\' kan inte tas bort</string>
+    <string name="empty_playlist">Den aktuella spellistan är tom</string>
+    <string name="fetching_songs">Hämtar låtar…</string>
+    <string name="all_songs">Alla låtar</string>
+    <string name="create_playlist_from_folder">Skapa ny spellista från mapp</string>
+    <string name="folder_contains_no_audio">Den valda mappen innehåller inga ljudfiler</string>
+    <string name="delete_current_song">Ta bort aktuell låt</string>
+    <string name="remove_current_song">Ta bort aktuell låt från spellista</string>
+    <string name="show_filename">Ersätt låttitel med filnamn</string>
+    <string name="title_is_not_available">Om titeln inte är tillgänglig</string>
+    <string name="show_album_cover">Visa skivomslag i huvudvyn</string>
+    <string name="all_tracks">Alla spår</string>
+    <string name="add_to_playlist">Lägg till i spellista</string>
+    <string name="create_playlist_label">Du kan skapa en ny spellista genom att välja önskade artister, album eller spår och använda Meny -&gt; Lägg till i spellista.</string>
+    <!-- Sorting -->
+    <string name="track_count">Antal spår</string>
+    <string name="album_count">Antal album</string>
+    <string name="artist_name">Artistnamn</string>
+    <string name="year">År</string>
+    <!-- Artists -->
+    <string name="artists">Artister</string>
+    <string name="folders">Mappar</string>
+    <string name="albums">Album</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d album</item>
+    </plurals>
+    <string name="tracks">Spår</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d spår</item>
+        <item quantity="other">%d spår</item>
+    </plurals>
+    <!-- Queue -->
+    <string name="next_track">Nästa:</string>
+    <string name="track_queue">Spårkö</string>
+    <string name="add_to_queue">Lägg till i kö</string>
+    <string name="remove_from_queue">Ta bort från kö</string>
+    <string name="create_playlist_from_queue">Skapa spellista från kö</string>
+    <!-- Settings -->
+    <string name="equalizer">Frekvenskorrigerare</string>
+    <string name="swap_prev_next">Växla hörlurars föregående- och nästaknappar</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Hur kan jag snabbspola låtar\?</string>
+    <string name="faq_1_text">Du kan klicka på låtens nuvarande tid eller längd nära sökfältet, vilket kommer att spola låten antingen bakåt eller framåt.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simpel musikspelare - En cool spelare för dina låtar</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">En ren musikspelare med en anpassningsbar widget, snyggt gränssnitt och inga annonser.</string>
+    <string name="app_long_description">
+        En musikspelare som du enkelt styr från statusfältet, en gränssnittskomponent på startskärmen eller knapparna på din mikrofonlur. Det har alla förväntade funktioner som sortering på olika sätt samt ändring av frekvenskorrigerare. Lyssna på din favorit mp3, andra låtar eller podcasts med denna gratis och vackra musikspelare.
+
+        Det erbjuder exklusiva extrafunktioner som Sök och visar Albumomslag, en sömntidtagare och många andra inställningar. Denna eleganta musikspelare låter dig skapa och hantera praktiska spellistor som du vill.
+
+        Spellistor stöds fullt ut. Du kan lägga till antingen enskilda filer eller hela mappar. Om du inte gillar en fil kan du antingen bara ta bort den från en spellista eller ta bort den faktiska filen helt.
+
+        Kommer med en praktisk sömntidtagare så att du på ett tillförlitligt sätt kan försena tiden för appens avstängning.
+
+        Stöder både blandning och upprepning av en viss låt samt hoppning och snabbspolning.
+
+        Finns på många olika språk och erbjuder flera olika frekvenskorrigerare.
+
+        Kontrollera enkelt filegenskaper som storlek, längd, senast ändrad o.s.v.
+
+        Ändra EXIF-data för fil som låttitel och artist.
+
+        Dela snabbt filer med dina vänner på sociala nätverk, e-postmeddelanden eller var du än vill.
+
+        Denna eleganta musikspelare innehåller en gränssnittskomponent med anpassningsbar textfärg, alfa och bakgrundsfärgen för enkel åtkomst och styrning.
+
+        Den hanterar riktigt tredjeparts avsikter också för att spela enskilda ljudfiler så att det kan hjälpa till att ställa in ringsignaler också.
+
+        Den levereras som standard med materialdesign och mörkt tema, ger bra användarupplevelse för enkel användning. Bristen på tillgång till internet ger dig mer integritet, säkerhet och stabilitet än andra appar.
+
+        Innehåller ingen reklam eller onödiga behörigheter. Den har helt öppen källkod och anpassningsbara färger.
+
+        <b>Kolla in hela sviten av Simple Tools här:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">심플 뮤직 플레이어</string>
+    <string name="app_launcher_name">뮤직 플레이어</string>
+    <string name="playlist_empty">재생목록이 비어 있습니다.</string>
+    <string name="rename_song">음악파일명 변경</string>
+    <string name="rename_song_error">이름변경 중 오류발생</string>
+    <string name="rename_song_empty">모든 항목 정보를 입력하세요.</string>
+    <string name="repeat_off">Repeat off</string>
+    <string name="repeat_song">현재 노래 반복</string>
+    <string name="repeat_playlist">Repeat playlist</string>
+    <string name="stop_playback_after_current_song">Stop playback after current song</string>
+    <string name="enable_shuffle">셔플 활성화</string>
+    <string name="disable_shuffle">셔플 비 활성화</string>
+    <string name="shuffle_enabled">셔플 활성화됨</string>
+    <string name="shuffle_disabled">셔플 비 활성화됨</string>
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="volume">Volume</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="loading_files">Loading files…</string>
+
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">재생목록에 파일 추가</string>
+    <string name="add_folder_to_playlist">재생목록에 폴더 추가</string>
+    <string name="manage_playlists">재생목록 관리</string>
+    <string name="playlists">재생 리스트</string>
+    <string name="create_new_playlist">재생목록 생성</string>
+    <string name="rename_playlist">재생목록 이름변경</string>
+    <string name="playlist_name_exists">재생목록 이름이 이미 존재합니다.</string>
+    <string name="remove_playlist">재생목록 삭제</string>
+    <string name="remove_playlist_description">선택된 재생목록만 삭제가 되며, 실제 파일은 삭제되지 않습니다.</string>
+    <string name="remove_playlist_description_placeholder">\"%s\" 재생목록만 삭제가 되며, 실제 파일은 삭제되지 않습니다.</string>
+    <string name="remove_from_playlist">재생목록에서 제거</string>
+    <string name="remove_from_playlist_description">This will only remove the items from playlist \"%s\", the actual files will not be deleted.</string>
+    <string name="delete_the_files_too">파일도 삭제하기</string>
+    <string name="open_playlist">재생목록 열기</string>
+    <string name="all_songs_cannot_be_deleted">\'전체 음악\' 목록은 삭제 할 수 없습니다.</string>
+    <string name="empty_playlist">현재 재생목록이 비어있습니다.</string>
+    <string name="fetching_songs">노래를 가져오는중…</string>
+    <string name="all_songs">전체 음악</string>
+    <string name="create_playlist_from_folder">폴더를 선택하여 새로운 재생목록 생성</string>
+    <string name="folder_contains_no_audio">선택된 폴더에는 오디오파일이 없습니다.</string>
+    <string name="delete_current_song">Delete current song</string>
+    <string name="remove_current_song">Remove current song from playlist</string>
+    <string name="show_filename">Show filename as song title</string>
+    <string name="title_is_not_available">If title is not available</string>
+    <string name="show_album_cover">Show album cover on the main screen</string>
+    <string name="all_tracks">All tracks</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="create_playlist_label">You can create a new playlist by selecting the wanted artists, albums or tracks and using Menu -> Add to playlist.</string>
+
+    <!-- Sorting -->
+    <string name="track_count">Track Count</string>
+    <string name="album_count">Album Count</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="year">Year</string>
+
+    <!-- Artists -->
+    <string name="artists">Artists</string>
+    <string name="folders">Folders</string>
+    <string name="albums">Albums</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Album</item>
+        <item quantity="other">%d Albums</item>
+    </plurals>
+
+    <string name="tracks">Tracks</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d Track</item>
+        <item quantity="other">%d Tracks</item>
+    </plurals>
+
+    <!-- Queue -->
+    <string name="next_track">Next:</string>
+    <string name="track_queue">Track queue</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="remove_from_queue">Remove from queue</string>
+    <string name="create_playlist_from_queue">Create playlist from queue</string>
+
+    <!-- Settings -->
+    <string name="equalizer">이퀄라이저</string>
+    <string name="swap_prev_next">Swap previous/next headphone buttons</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">How can I fast-forward songs?</string>
+    <string name="faq_1_text">You can click on the current or max duration texts near the seekbar, that will move the song either backward, or forward.</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple Music Player - A cool player for your songs</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">A clean music player with a customizable widget, stylish interface and no ads.</string>
+    <string name="app_long_description">
+        A simple music player easily controllable from the status bar, home screen widget or by hardware buttons on your headset. It provides all expected functions like sorting in various ways as well as changing the Equalizer.  Listen to your favorite mp3, other songs or podcasts with this free beautiful music player.
+
+        It offers exclusive extras like Search and showing Album Art, a sleep timer and many other settings. This elegant music player allows you creating and managing handy playlists as you desire.
+
+        Playlists are fully supported. You can add either individual files, or whole folders. If you won\'t like a file, you can either just remove it from a playlist, or delete the actual file altogether.
+
+        Comes with a handy sleep timer so that you can reliably delay the time of the app shutting down.
+
+        Supports both shuffle and repeating a particular song, as well as skipping and fast forwarding.
+
+        Available in many different languages, offers multiple different equalizers.
+
+        Easily check a file properties like the size, duration, last modified etc.
+
+        Modify file EXIF data like the song title and artist.
+
+        Quickly share files with your friends on social networks, emails, or anywhere you would like.
+
+        This stylish music player contains a widget with customizable text color, alpha and the color of the background for easy access and control.
+
+        It properly handles third party intents too for playing individual audio files so it can help at setting ringtones too.
+
+        It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
+
+        광고가 포함되어 있거나, 불필요한 권한을 요청하지 않습니다. 이 앱의 모든 소스는 오픈소스이며, 사용자가 직접 애플리케이션의 컬러를 설정 할 수 있습니다.
+
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

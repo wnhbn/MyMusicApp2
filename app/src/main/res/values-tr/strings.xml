@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basit Müzik Çalar</string>
+    <string name="app_launcher_name">Müzik Çalar</string>
+    <string name="playlist_empty">Çalma listeniz boş</string>
+    <string name="rename_song">Şarkıyı yeniden adlandır</string>
+    <string name="rename_song_error">Yeniden adlandırma sırasında bir hata oluştu</string>
+    <string name="rename_song_empty">lütfen tüm boşlukları doldurun</string>
+    <string name="repeat_off">Tekrar kapalı</string>
+    <string name="repeat_song">Geçerli şarkıyı tekrarla</string>
+    <string name="repeat_playlist">Çalma listesini tekrarla</string>
+    <string name="stop_playback_after_current_song">Geçerli şarkıdan sonra oynatmayı durdur</string>
+    <string name="enable_shuffle">Karıştırmayı etkinleştir</string>
+    <string name="disable_shuffle">Karıştırmayı devre dışı bırak</string>
+    <string name="shuffle_enabled">Karıştırma etkin</string>
+    <string name="shuffle_disabled">Karıştırma devre dışı</string>
+    <string name="sleep_timer">Uyku zamanlayıcısı</string>
+    <string name="volume">Ses seviyesi</string>
+    <string name="playback_speed">Oynatma hızı</string>
+    <string name="loading_files">Dosyalar yükleniyor…</string>
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">Çalma listesine dosya ekle</string>
+    <string name="add_folder_to_playlist">Çalma listesine klasör ekle</string>
+    <string name="manage_playlists">Çalma listelerini yönet</string>
+    <string name="playlists">Çalma listeleri</string>
+    <string name="create_new_playlist">Çalma listesi oluştur</string>
+    <string name="rename_playlist">Çalma listesini yeniden adlandır</string>
+    <string name="playlist_name_exists">Bu ada sahip bir çalma listesi zaten var</string>
+    <string name="remove_playlist">Çalma listesini kaldır</string>
+    <string name="remove_playlist_description">Bu asıl dosyaları değil, yalnızca seçilen çalma listelerini kaldıracak.</string>
+    <string name="remove_playlist_description_placeholder">Bu asıl dosyaları değil, yalnızca \"%s\" listesini kaldıracak.</string>
+    <string name="remove_from_playlist">Çalma listesinden kaldır</string>
+    <string name="remove_from_playlist_description">Bu yalnızca ögeleri \"%s\" listesinden kaldırır, asıl dosyalar silinmez.</string>
+    <string name="delete_the_files_too">Dosyaları da sil</string>
+    <string name="open_playlist">Çalma listesini aç</string>
+    <string name="all_songs_cannot_be_deleted">\'Tüm şarkılar\' çalma listesi silinemez</string>
+    <string name="empty_playlist">Geçerli çalma listesi boş</string>
+    <string name="fetching_songs">Şarkılar alınıyor…</string>
+    <string name="all_songs">Tüm şarkılar</string>
+    <string name="create_playlist_from_folder">Klasörden yeni çalma listesi oluştur</string>
+    <string name="folder_contains_no_audio">Seçilen klasörde ses dosyası yok</string>
+    <string name="delete_current_song">Geçerli şarkıyı sil</string>
+    <string name="remove_current_song">Geçerli şarkıyı çalma listesinden kaldır</string>
+    <string name="show_filename">Şarkı başlığı olarak dosya adını göster</string>
+    <string name="title_is_not_available">Başlık yoksa</string>
+    <string name="show_album_cover">Ana ekranda albüm kapağını göster</string>
+    <string name="all_tracks">Tüm parçalar</string>
+    <string name="add_to_playlist">Çalma listesine ekle</string>
+    <string name="create_playlist_label">İstediğiniz sanatçıları, albümleri veya parçaları seçip Menü -&gt; Çalma listesine ekle\'yi kullanarak yeni bir çalma listesi oluşturabilirsiniz.</string>
+    <!-- Sorting -->
+    <string name="track_count">Parça Sayısı</string>
+    <string name="album_count">Albüm Sayısı</string>
+    <string name="artist_name">Sanatçı Adı</string>
+    <string name="year">Yıl</string>
+    <!-- Artists -->
+    <string name="artists">Sanatçılar</string>
+    <string name="folders">Klasörler</string>
+    <string name="albums">Albümler</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Albüm</item>
+        <item quantity="other">%d Albüm</item>
+    </plurals>
+    <string name="tracks">Parçalar</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d Parça</item>
+        <item quantity="other">%d Parça</item>
+    </plurals>
+    <!-- Queue -->
+    <string name="next_track">Sonraki:</string>
+    <string name="track_queue">Parça kuyruğu</string>
+    <string name="add_to_queue">Kuyruğa ekle</string>
+    <string name="remove_from_queue">Kuyruktan kaldır</string>
+    <string name="create_playlist_from_queue">Kuyruktan çalma listesi oluştur</string>
+    <!-- Settings -->
+    <string name="equalizer">Ekolayzır</string>
+    <string name="swap_prev_next">Önceki/sonraki kulaklık düğmelerini değiştir</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">Şarkıları nasıl hızlıca ileri sarabilirim\?</string>
+    <string name="faq_1_text">Arama çubuğunun yanındaki geçerli veya maksimum süre metinlerini tıklayabilir, şarkıyı geriye ya da ileriye sarabilirsiniz.</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Basit Müzik Çalar - Harika bir şarkı oynatıcı</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Özelleştirilebilir widget\'a, şık arayüze sahip reklamsız temiz müzik çalar.</string>
+    <string name="app_long_description"> Durum çubuğundan, ana ekran widget\'ından veya kulaklığınızdaki donanım düğmelerinden kolayca denetlenebilen basit bir müzik çalar. Ekolayzırı değiştirmenin yanı sıra çeşitli şekillerde sıralama gibi beklenen tüm işlevleri sağlar. Bu ücretsiz ve güzel müzik çalarla en sevdiğiniz mp3\'leri, diğer şarkıları veya podcast\'leri dinleyin. Arama ve Albüm Resmini gösterme, uyku zamanlayıcısı ve diğer birçok ayar gibi özel ekstralar sunar. Bu zarif müzik çalar, istediğiniz gibi kullanışlı çalma listeleri oluşturmanıza ve yönetmenize olanak tanır. Çalma listeleri tam olarak desteklenmektedir. Tek tek dosyaları veya tüm klasörleri ekleyebilirsiniz. Bir dosyayı beğenmezseniz, onu bir çalma listesinden kaldırabilir veya asıl dosyayı tamamen silebilirsiniz. Kullanışlı bir uyku zamanlayıcısı ile birlikte gelir, böylece uygulamanın kapanma süresini güvenilir bir şekilde geciktirebilirsiniz. Hem karıştırmayı hem de belirli bir şarkıyı tekrarlamayı, ayrıca atlama ve hızlı ileri sarmayı destekler. Birçok farklı dilde kullanılabilir, birden fazla farklı ekolayzır sunar. Boyut, süre, son değiştirilme vb. gibi dosya özelliklerini kolayca görün. Şarkı adı ve sanatçı gibi dosya EXIF verilerini değiştirin. Sosyal ağlarda, e-postalarda veya istediğiniz herhangi bir yerde arkadaşlarınızla hızla dosya paylaşın. Bu şık müzik çalar, kolay erişim ve denetim için özelleştirilebilir metin rengi, alfa ve arka plan rengine sahip bir widget içerir. Tek tek ses dosyalarını oynatmak için üçüncü taraf amaçlarını da düzgün bir şekilde işler, böylece zil seslerinin ayarlanmasına da yardımcı olabilir. Öntanımlı olarak materyal tasarım ve koyu tema ile birlikte gelir, kolay kullanım için harika bir kullanıcı deneyimi sağlar. İnternet erişiminin olmaması size diğer uygulamalardan daha fazla gizlilik, güvenlik ve istikrar sağlar. Reklam veya gereksiz izinler içermez. Tamamen açık kaynaktır, özelleştirilebilir renkler sağlar. <b>Tüm Basit Araçlar paketini buradan inceleyin:</b> https://www.simplemobiletools.com <b>Facebook:</b> https://www.facebook.com/simplemobiletools <b>Reddit:</b> https://www.reddit.com/r/SimpleMobileTools </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

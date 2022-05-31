@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易音樂播放器</string>
+    <string name="app_launcher_name">簡易音樂播放器</string>
+    <string name="playlist_empty">你的播放清單是空白的</string>
+    <string name="rename_song">重新命名歌曲</string>
+    <string name="rename_song_error">重新命名時發生錯誤</string>
+    <string name="rename_song_empty">請填入全部欄位</string>
+    <string name="repeat_off">重播 關</string>
+    <string name="repeat_song">重播當前歌曲</string>
+    <string name="repeat_playlist">Repeat playlist</string>
+    <string name="stop_playback_after_current_song">播完這首歌曲後停止播放</string>
+    <string name="enable_shuffle">啟用隨機</string>
+    <string name="disable_shuffle">停用隨機</string>
+    <string name="shuffle_enabled">隨機已啟用</string>
+    <string name="shuffle_disabled">隨機已停用</string>
+    <string name="sleep_timer">睡眠定時器</string>
+    <string name="volume">Volume</string>
+    <string name="playback_speed">播放速度</string>
+    <string name="loading_files">正在載入檔案……</string>
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">添加檔案到播放清單</string>
+    <string name="add_folder_to_playlist">添加資料夾到播放清單</string>
+    <string name="manage_playlists">管理播放清單</string>
+    <string name="playlists">播放清單</string>
+    <string name="create_new_playlist">建立播放清單</string>
+    <string name="rename_playlist">重新命名播放清單</string>
+    <string name="playlist_name_exists">已經存在這名稱的播放清單</string>
+    <string name="remove_playlist">移除播放清單</string>
+    <string name="remove_playlist_description">這只會移除選擇的播放清單，而不是實際檔案。</string>
+    <string name="remove_playlist_description_placeholder">這只會移除播放清單\"%s\"，而不是實際檔案。</string>
+    <string name="remove_from_playlist">從播放清單移除</string>
+    <string name="remove_from_playlist_description">這只會從播放清單\"%s\"移除項目，實際檔案並不會被刪除。</string>
+    <string name="delete_the_files_too">也刪除檔案</string>
+    <string name="open_playlist">開啟播放清單</string>
+    <string name="all_songs_cannot_be_deleted">播放清單\'全部歌曲\'不能被刪除</string>
+    <string name="empty_playlist">當前播放清單是空白的</string>
+    <string name="fetching_songs">正在獲取歌曲…</string>
+    <string name="all_songs">全部歌曲</string>
+    <string name="create_playlist_from_folder">從資料夾建立新的播放清單</string>
+    <string name="folder_contains_no_audio">所選資料夾不包含音訊檔案</string>
+    <string name="delete_current_song">刪除當前歌曲</string>
+    <string name="remove_current_song">從播放清單移除當前歌曲</string>
+    <string name="show_filename">顯示檔案名稱作為歌名</string>
+    <string name="title_is_not_available">如果標題不可用</string>
+    <string name="show_album_cover">在主畫面顯示專輯封面</string>
+    <string name="all_tracks">所有曲目</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="create_playlist_label">You can create a new playlist by selecting the wanted artists, albums or tracks and using Menu -&gt; Add to playlist.</string>
+    <!-- Sorting -->
+    <string name="track_count">曲目數</string>
+    <string name="album_count">專輯數</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="year">年份</string>
+    <!-- Artists -->
+    <string name="artists">演出者</string>
+    <string name="folders">資料夾</string>
+    <string name="albums">專輯</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Album</item>
+        <item quantity="other">%d Albums</item>
+    </plurals>
+    <string name="tracks">曲目</string>
+    <plurals name="tracks_plural">
+        <item quantity="other">%d 首曲目</item>
+    </plurals>
+    <!-- Queue -->
+    <string name="next_track">Next:</string>
+    <string name="track_queue">曲目隊列</string>
+    <string name="add_to_queue">加到隊列</string>
+    <string name="remove_from_queue">從隊列中移除</string>
+    <string name="create_playlist_from_queue">Create playlist from queue</string>
+    <!-- Settings -->
+    <string name="equalizer">等化器</string>
+    <string name="swap_prev_next">交換耳機按鈕的 上一首/下一首</string>
+    <!-- FAQ -->
+    <string name="faq_1_title">我如何快轉歌曲?</string>
+    <string name="faq_1_text">你可以點擊進度條附近的當前或總時長文字，歌曲就會快進或倒退。</string>
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">簡易音樂播放器 - 一個酷炫的歌曲播放器</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">一個乾淨的音樂播放器，還有可自訂的小工具，並且無任何廣告。</string>
+    <string name="app_long_description">
+        一個能夠從狀態欄、主畫面小工具或耳機上實體鍵輕易控制的音樂播放器。它提供所有預期中的功能，包括各種排序曲目的方式及更改等化器。你可以使用該免費且炫酷的歌曲播放器聆聽您喜愛的 MP3、其他歌曲或 Podcasts。
+
+        它包含獨家的額外功能，比如搜尋及顯示專輯封面、睡眠定時器及許多其他的設定。這款優雅的音樂播放器允許您根據喜好創建及管理播放列表。
+
+        完整支持播放列表。您可以加入單獨的檔案，或整個資料及。如果您不喜歡一個檔案，你可以從播放列表中移除該檔案，或者一併刪除檔案本身。
+
+        內建便攜式睡眠定時器，您可以放心地依靠它延遲應用程式的關閉時間。
+
+        支持隨機和重複播放特定的歌曲，也可以跳過及快轉歌曲。
+
+        內建多種語言的支持及多種更化器。
+
+        非常容易地檢查檔案屬性，比如大小、時長和最後修改時間等。
+
+        可以修改檔案的 EXIF 資料，比如歌曲標題及演唱者。
+
+        快速地在社群媒體、郵件，或任何地方與朋友分享檔案。
+
+        這程式包含一個能夠自訂文字顏色、透明度和背景顏色的小工具，以方便訪問及控制。
+
+        它可以正確地處理來自第三方播放單獨音樂檔案意圖 (Intent)，從而可以幫助設定鈴聲。
+
+        它遵循質感設計且默認深色模式，提供極佳的使用體驗。不訪問網際網路給予您更好的隱私、安全性及穩定性。
+		
+        不包含廣告及非必要的權限，而且完全開放原始碼，並提供自訂顏色。
+		
+        <b>這程式只是一系列眾多應用程式的其中一項，你可以在這發現更多:</b>
+        https://www.simplemobiletools.com
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

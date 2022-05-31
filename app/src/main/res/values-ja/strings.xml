@@ -1,0 +1,131 @@
+﻿<resources>
+    <string name="app_name">シンプル ミュージック プレイヤー</string>
+    <string name="app_launcher_name">ミュージック プレイヤー</string>
+    <string name="playlist_empty">プレイリストは空です</string>
+    <string name="rename_song">曲の名前を変更</string>
+    <string name="rename_song_error">名前を変更中にエラーが発生しました</string>
+    <string name="rename_song_empty">すべてのフィールドを入力してください</string>
+    <string name="repeat_off">Repeat off</string>
+    <string name="repeat_song">現在の曲を繰り返し</string>
+    <string name="repeat_playlist">Repeat playlist</string>
+    <string name="stop_playback_after_current_song">Stop playback after current song</string>
+    <string name="enable_shuffle">シャッフルを有効にする</string>
+    <string name="disable_shuffle">シャッフルを無効にする</string>
+    <string name="shuffle_enabled">シャッフル有効</string>
+    <string name="shuffle_disabled">シャッフル無効</string>
+    <string name="sleep_timer">スリープタイマー</string>
+    <string name="volume">Volume</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="loading_files">Loading files…</string>
+
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">プレイリストにファイルを追加</string>
+    <string name="add_folder_to_playlist">プレイリストにフォルダを追加</string>
+    <string name="manage_playlists">プレイリストを管理</string>
+    <string name="playlists">プレイリスト</string>
+    <string name="create_new_playlist">プレイリストを作成</string>
+    <string name="rename_playlist">プレイリストの名前を変更</string>
+    <string name="playlist_name_exists">その名前のプレイリストは既に存在します</string>
+    <string name="remove_playlist">プレイリストを削除</string>
+    <string name="remove_playlist_description">この操作により、実際のファイルではなくプレイリストのみ削除されます。</string>
+    <string name="remove_playlist_description_placeholder">この操作により、実際のファイルではなくプレイリスト \"%s\" のみ削除されます。</string>
+    <string name="remove_from_playlist">プレイリストから削除</string>
+    <string name="remove_from_playlist_description">この操作は、プレイリスト \"%s\" からアイテムを削除するだけで、実際のファイルは削除されません。</string>
+    <string name="delete_the_files_too">実際のファイルも削除する</string>
+    <string name="open_playlist">プレイリストを開く</string>
+    <string name="all_songs_cannot_be_deleted">プレイリスト \'すべての曲\' は削除できません</string>
+    <string name="empty_playlist">プレイリストは空です</string>
+    <string name="fetching_songs">曲を取得中…</string>
+    <string name="all_songs">すべての曲</string>
+    <string name="create_playlist_from_folder">フォルダから新しいプレイリストを作成する</string>
+    <string name="folder_contains_no_audio">選択したフォルダにはオーディオファイルが含まれていません</string>
+    <string name="delete_current_song">現在の曲を削除</string>
+    <string name="remove_current_song">プレイリストから現在の曲を削除</string>
+    <string name="show_filename">ファイル名を曲名として表示</string>
+    <string name="title_is_not_available">曲名が使用できない場合</string>
+    <string name="show_album_cover">メイン画面にアルバムカバーを表示する</string>
+    <string name="all_tracks">全てのトラック</string>
+    <string name="add_to_playlist">プレイリストに追加</string>
+    <string name="create_playlist_label">アーティスト、アルバム、トラックを選択してメニュー→プレイリストに追加することで、新しいプレイリストを追加できます。</string>
+
+    <!-- Sorting -->
+    <string name="track_count">トラック数</string>
+    <string name="album_count">アルバム数</string>
+    <string name="artist_name">アーティスト名</string>
+    <string name="year">年</string>
+
+    <!-- Artists -->
+    <string name="artists">アーティスト</string>
+    <string name="folders">Folders</string>
+    <string name="albums">アルバム</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d 件のアルバム</item>
+        <item quantity="other">%d 件のアルバム</item>
+    </plurals>
+
+    <string name="tracks">トラック</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d 件のトラック</item>
+        <item quantity="other">%d 件のトラック</item>
+    </plurals>
+
+    <!-- Queue -->
+    <string name="next_track">次:</string>
+    <string name="track_queue">トラックキュー</string>
+    <string name="add_to_queue">キューに追加</string>
+    <string name="remove_from_queue">キューから削除</string>
+    <string name="create_playlist_from_queue">キューからプレイリストを作成</string>
+
+    <!-- Settings -->
+    <string name="equalizer">イコライザー</string>
+    <string name="swap_prev_next">ヘッドフォンの "前へ/次へ" ボタンを入れ替える</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">曲を早送りするにはどうすればよいですか？</string>
+    <string name="faq_1_text">シークバーの近くにある[再生中]または[再生時間]をタップすると、曲の巻戻しまたは早送りをすることができます。</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">シンプルな音楽プレーヤー-オーディオファイルを簡単に再生</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">お気に入り曲をクイック再生、プレイリスト、スリープタイマー、広告なし</string>
+    <string name="app_long_description">
+        このミュージックプレイヤーは操作が簡単で、ステータスバーからホームスクリーンウィジェット、ヘッドセットのハードウェアボタンまで扱い易いものとなっています。音楽ジャンルの分類やイコライザーの変更など必要な機能は全てついています。この素晴らしいミュージックプレイヤーで、お気に入りのMP3やポッドキャストなど様々な音楽をお聞きください。
+
+        検索機能やアルバムジャケットの表示、スリープタイマーなどの様々な設定があります。ユーザーの思い通りにプレイリストを制作・編集することもできます。
+
+        プレイリストは完全にサポートされています。個人のファイル、全体フォルダーもプレイリストに追加することが可能です。ファイルがお気に召さない場合は、プレイリストからファイルを移動させるか、本体のファイルを削除してください。
+
+        スリープタイマーとは一定時間が経過するとアプリが自動的にシャットダウンする便利な機能です。
+
+        シャッフル、リピート、スキップ、早送りの機能もございます。
+
+        アプリは多くの言語に対応しており、複数のイコライザーを用意しています。
+
+        ファイルの容量、時間、最終更新日は簡単にチェックすることが出来ます。
+
+        曲名や歌手名などのEXIFデータの修正が可能です。
+
+        ファイルは好きな時すぐにSNSやメールで友人と共有できます。
+
+        アプリのウィジェットの文字の色、背景の色・アルファ値はカスタム可能なため、操作がし易くなることでしょう。
+
+        個人オーディオファイルを再生するために付いているサードパーティーのインテントにより、ファイルの音楽を着信音に設定することができます。
+
+        広告や不要な権限はありません。 完全にオープンソースで、カラーもカスタマイズ可能。
+
+        <b>シンプルツールの完全なリストはこちらからご確認ください：</b>
+         https://www.simplemobiletools.com
+
+        <b> Facebook：</b>
+         https://www.facebook.com/simplemobiletools
+
+        <b> Reddit：</b>
+         https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
